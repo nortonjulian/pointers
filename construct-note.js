@@ -8,7 +8,7 @@ function constructNote(message, letters) {
     }
 
     for (let char of letters) {
-        letterChars[char] = (letterChars[char]) + 1;
+        letterChars[char] = (letterChars[char] || 0) + 1;
     }
 
     for (let char in messageChars) {

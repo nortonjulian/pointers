@@ -1,7 +1,7 @@
 // add whatever parameters you deem necessary
 function sameFrequency(num1, num2) {
     const str1 = num1.toString();
-    const str2 = num1.toString();
+    const str2 = num2.toString();
 
     if (str1.length !== str2.length) {
         return false;
@@ -24,5 +24,5 @@ function sameFrequency(num1, num2) {
         }
     }
 
-    return false;
+    return true;
 }
